@@ -9,4 +9,4 @@ print(song_lyrics_match)
 song_lyrics_matches = song_lyrics.finditer(song_lyrics_search)
 
 for song_lyrics_match in song_lyrics_matches:
-    print(f"Your song lyrics found are {song_lyrics_match.group()}")
+    print(f"The found lyrics of your song are {song_lyrics_match.group()}")
